@@ -1,0 +1,20 @@
+
+.container {
+    .navbar {
+        min-width: 340px;
+        /*min-height: 120px;*/
+        background-color: #2d353c;
+    }
+
+
+
+    .toolbar {
+        float: right;
+        padding-right: 200px;
+        margin-top: 50px;
+
+        div {
+            padding-right: 10px;
+        }
+    }
+}

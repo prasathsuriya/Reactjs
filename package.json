@@ -1,0 +1,99 @@
+{
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@react-google-maps/api": "^1.9.12",
+    "@types/jest": "24.0.15",
+    "@types/node": "^12.0.8",
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.2",
+    "@types/react-redux": "^7.0.3",
+    "@types/react-router-dom": "^4.3.1",
+    "antd": "^3.9.3",
+    "array-to-tree": "^3.3.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-loader": "^3.0.4",
+    "chart.js": "^2.9.3",
+    "classnames": "^2.2.6",
+    "core-js": "^3.1.4",
+    "cron-parser": "^2.13.0",
+    "date-fns": "^2.16.1",
+    "file-saver": "2.0.2",
+    "flag-icon-css": "3.4.5",
+    "font-awesome": "^4.7.0",
+    "google-map-react": "^2.0.8",
+    "google-maps-react": "^2.0.6",
+    "history": "^4.9.0",
+    "jquery": "^3.5.1",
+    "list-to-tree": "^2.2.3",
+    "mdbreact": "^4.27.0",
+    "moment": "2.23.0",
+    "node-sass": "^4.14.1",
+    "pace-progress": "^1.0.2",
+    "postcss-import": "^8.0.2",
+    "primeflex": "^1.0.0",
+    "primeicons": "^2.0.0",
+    "primereact": "^3.4.0",
+    "react": "^16.12.0",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-checkbox-tree": "^1.6.0",
+    "react-date-picker": "^8.0.3",
+    "react-datetime-picker": "^3.0.2",
+    "react-dom": "^16.8.4",
+    "react-dropdown-tree-select": "^2.3.6",
+    "react-emotion": "^10.0.0",
+    "react-flexy-table": "^1.2.5",
+    "react-gmaps": "^1.9.0",
+    "react-google-maps": "^9.4.5",
+    "react-idle-timer": "^4.2.12",
+    "react-mapbox-gl": "^4.8.6",
+    "react-moment": "^0.9.7",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.3",
+    "react-simple-tree-menu": "^1.1.15",
+    "react-table": "^6.10.0",
+    "reactable": "1.1.0",
+    "reactstrap": "^8.0.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2",
+    "resolve-url-loader": "^3.1.0",
+    "simple-line-icons": "2.4.1",
+    "tether": "^1.4.6",
+    "typescript": "3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "globals": {
+      "google": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-table": "^6.8.4"
+  }
+}

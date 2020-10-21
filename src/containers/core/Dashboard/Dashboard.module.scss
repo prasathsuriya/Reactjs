@@ -1,0 +1,97 @@
+.container {
+    width: 700px;
+    margin: auto;
+    color: gray;
+    margin-top: 20px;
+
+    $table_head_col: #ccc;
+    $table_row_col: #eee;
+    $table_bor_col: #eee;
+
+    $first_col_width: 100px;
+    $td_col_width: 150px;
+
+    .flex-grid {
+        display: flex;
+    }
+
+    .col {
+        flex: 1;
+    }
+
+    .dash-img {
+        height: 120px;
+        width: auto;
+    }
+
+    .dash-img-small {
+        height: 120px;
+        width: auto;
+    }
+
+    .dash-header {
+        font-size: 20px;
+        color: black;
+        font-family: Open Sans;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-left: 50px;
+    }
+
+    .dash-text-project {
+        margin-left: 40px;
+        color: black;
+        font-family: Open Sans;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .dash-text-import {
+        margin-left: 30px;
+        color: black;
+        font-family: Open Sans;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .dash-text-view {
+        margin-left: 16px;
+        color: black;
+        font-family: Open Sans;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .ProjectDataTable {
+        border: 10px solid gray;
+        justify-content: center;
+        color: gray;
+    }
+
+    .table {
+
+        tr:nth-child(odd) {
+            background: $table_row_col
+        }
+
+        td:first-child {
+            width: $first_col_width
+        }
+
+        th:first-child {
+            width: $first_col_width
+        }
+
+        th {
+            background-color: $table_head_col;
+            height: 10px;
+        }
+
+        td {
+            width: $td_col_width;
+            text-align: center
+        }
+
+        border: 1px solid $table_bor_col;
+    }
+}
